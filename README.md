@@ -34,7 +34,10 @@ echo PATH=$PATH:/usr/local/node/bin >> ~/.bashrc
 
 source .bashrc
 ```
-
+### uninstall nodejs
+```
+sudo apt-get remove nodejs
+```
 ## check set
 ```
 uname -a
