@@ -42,3 +42,26 @@ sudo apt-get remove nodejs
 ```
 uname -a
 ```
+## root Q
+
+### change pw
+```
+sudo passwd root
+```
+### unlock root
+```
+sudo passwd --unlock root
+```
+### Access denied
+```
+sudo nano /etc/ssh/sshd_config
+```
+### search:```^W```
+```
+PermitRootLogin without-password
+```
+update
+```
+PermitRootLogin yes
+```
+save:```^O```
